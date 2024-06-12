@@ -50,4 +50,4 @@ input_paths = ['test_01.txt']  # Add more input file paths as needed
 output_paths = ['sample_results.txt']  # Add corresponding output file paths
 
 for input_path, output_path in zip(input_paths, output_paths):
-    handle_file(input_path, output_path)
+    handle_file(input_path,output_path)
