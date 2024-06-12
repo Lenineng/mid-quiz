@@ -1,6 +1,6 @@
-def read_integers_from_file(file_path):
+def read_integers_from_file(test_01.txt.res):
     integers = []
-    with open(file_path, 'r') as file:
+    with open(test_01.txt.res, 'r') as file:
         for line in file:
             line = line.strip()
             if not line:
