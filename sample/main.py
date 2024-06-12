@@ -40,7 +40,7 @@ def handle_file(input_path, output_path):
 
 
 # Single file processing example
-input_path = 'test_01.txt'
+input_path = 'test_01.txt.res'
 output_path = 'sample_results.txt'
 handle_file(input_path,output_path)
 
